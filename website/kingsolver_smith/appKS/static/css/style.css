@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #333333 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-image: url("../assets/SVG/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img_logo {
+  width: 90px;
+  height: 112px;
+  margin-top: 20px;
+}
+
+.up {
+    margin-top: -50px;
+}
+
+.curve {
+    border-radius: 10px;
+    width: 80%;
+}
+
+header {
+    background-repeat: no-repeat;
+}
+.background_circle {
+    width: 20%;
+    margin-top: -90px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #9E97A3;
+}
+
+.avi_img {
+    width: 70%;
+}

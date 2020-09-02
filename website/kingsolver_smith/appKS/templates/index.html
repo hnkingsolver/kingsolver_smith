@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="https://use.typekit.net/bzx0ejt.css">
     <title>Home</title>
 </head>
+
 <body>
-    
+
+    <nav class="dt w-100 border-box pa3 ph5-ns">
+        <a class="dtc v-mid mid-gray link dim" href="#" title="Home">
+            <img src="static/Assets/4x/Asset 41@4x.png" class="dib img_logo " alt="Site Name">
+        </a>
+        <div class="dtc v-mid w-75 tr">
+            <a class="link grow white f6 f5-ns dib tracked mr4-ns" href="#" title="About">Design</a>
+            <a class="link grow white f6 f5-ns dib tracked mr4-ns" href="#" title="Store">Develop</a>
+            <a class="link grow white f6 f5-ns dib tracked mr4-ns" href="#" title="Contact">About</a>
+            <button class="button grow white f6 f5-ns dib tracked ttu tc">Packages</button>
+        </div>
+    </nav>
+    <header>
+        <h1 class=" tracked white ttu circle_img f1-m f-headline-ns tc dib ">Web Development & Design</h1>
+        <img src="../static/assets/4x/Asset 43@4x.png" class="background_circle dib" alt="">
+    </header>
+    <div class="dt-ns dt--fixed- pt6">
+        <div class="dtc-ns tc pv4 ">
+            <h2 class="white ttu tracked pb5">// Design</h2>
+            <h2 class="white ttu tracked pt7">// Develop</h2>
+        </div>
+        <div class="dtc-ns tc pv4 w-40">
+            <p class="f5 lh-copy white measure-wide">Typography has one plain duty before it and that is to convey
+                information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+            <p class="f5 lh-copy white measure-wide pt7">Typography has one plain duty before it and that is to convey
+                information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+
+        </div>
+        <div class="dtc-ns tc pv4  w-40">
+            <p class="f5 lh-copy white measure-wide">
+                Typography has one plain duty before it and that is to convey information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+            <p class="f5 lh-copy white measure-wide pt7">
+                Typography has one plain duty before it and that is to convey information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+        </div>
+    </div>
+    <article class="cf mt6">
+        <div class="fl w-100 w-50-ns hannah tc">
+            <img src="../static/assets/4x/hannah.png" class="pl3 avi_img fl" alt="">
+            <p class="f5 lh-copy tl white measure-narrow">
+                Typography has one plain duty before it and that is to convey information
+                in writing. No argument or consideration can absolve typography from this
+                duty. A printed work which cannot be read becomes a product without
+                purpose.
+            </p>
+        </div>
+        <div class="fl w-100 w-50-ns shane tc">
+            <img src="../static/assets/4x/shane.png" class="pr3 avi_img fr" alt="">
+            <p class="f5 lh-copy tr fr white measure-narrow">
+                    Typography has one plain duty before it and that is to convey information
+                    in writing. No argument or consideration can absolve typography from this
+                    duty. A printed work which cannot be read becomes a product without
+                    purpose.
+                </p>
+        </div>
+    </article>
 </body>
+
 </html>
