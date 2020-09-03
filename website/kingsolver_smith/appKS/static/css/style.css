@@ -157,11 +157,36 @@ footer {
   }
   
 
-.boom {
+/* .boom {
     cursor: pointer;
 }
 
 .boom:hover {
-  opacity: 60%;
+  opacity: 50%;
   text-decoration: none;
+} */
+
+.button_learn {
+    background-color: #333333;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button_learn:hover {
+    opacity: 50%;
+}
+
+.tag_logo {
+    height: 65px;
+}
+
+.triangle_logo {
+    height: 62px;
+}
+
+.polygon_logo {
+    height: 62px;
 }
