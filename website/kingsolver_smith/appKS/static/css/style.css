@@ -48,3 +48,7 @@ header {
 .avi_img {
     width: 70%;
 }
+
+footer {
+    backdrop-filter: blur(15px);
+}
