@@ -43,6 +43,7 @@ header {
     height: 40px;
     border-radius: 15px;
     background-color: #9E97A3;
+    border-style: none;
 }
 
 .avi_img {
@@ -51,4 +52,10 @@ header {
 
 footer {
     backdrop-filter: blur(15px);
+}
+
+.n{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 40px;
 }
