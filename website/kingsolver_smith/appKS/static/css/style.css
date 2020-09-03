@@ -39,8 +39,9 @@ header {
 }
 
 .button {
+    display: inline-block;
     width: 120px;
-    height: 40px;
+    height: 25px;
     border-radius: 15px;
     background-color: #9E97A3;
     border-style: none;
