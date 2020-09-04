@@ -48,7 +48,7 @@ header {
 }
 
 .avi_img {
-    width: 70%;
+    width: 76%;
 }
 
 footer {
@@ -63,7 +63,7 @@ footer {
 
 
 
-
+/* THE FOOTER NAV */
 .ul_footer {
     display: inline-grid;
     grid-auto-flow: row;
@@ -87,12 +87,9 @@ footer {
   .a_footer {
     color: white;
     text-decoration: none;
-    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+    
   }
   
-  .a_footer:hover {
-    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
-  }
   
   .li_footer:last-child {
     grid-column: 1 / 2;
@@ -134,16 +131,17 @@ footer {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe74;
+    background-color: #303030f0;
+    border-radius: 10px;
     margin: 20% auto; /* 15% from the top and centered */
     padding: 20px;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 20%; /* Could be more or less, depending on screen size */
     color: white;
   }
   
   /* The Close Button */
   .close {
-    color: rgb(52, 50, 50);
+    color: rgb(162, 160, 160);
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -151,21 +149,29 @@ footer {
   
   .close:hover,
   .close:focus {
-    color: white;
+    color: rgb(217,182,180);
     text-decoration: none;
     cursor: pointer;
   }
   
+  /* MODAL PULSE */
 
-/* .boom {
-    cursor: pointer;
-}
+  .pulse {
+    animation: pulse-animation 2s infinite;
+  }
 
-.boom:hover {
-  opacity: 50%;
-  text-decoration: none;
-} */
 
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.646);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+
+
+/* LEARN BUTTON */
 .button_learn {
     background-color: #333333;
     padding: 10px;
@@ -179,8 +185,10 @@ footer {
     opacity: 50%;
 }
 
+
+/* LOGOS FOR PACKAGES */
 .tag_logo {
-    height: 65px;
+    height: 63px;
 }
 
 .triangle_logo {
@@ -190,3 +198,10 @@ footer {
 .polygon_logo {
     height: 62px;
 }
+
+/* FOR RANDOM VECTOR */
+.random {
+    font-size: 100px;
+    
+}
+
