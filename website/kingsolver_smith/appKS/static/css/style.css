@@ -5,14 +5,14 @@
 }
 
 body {
-  background: #333333 0% 0% no-repeat padding-box;
+  background: #333333;
   opacity: 1;
   font-family: "sofia-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
   background-image: url("../assets/SVG/background.svg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 }
 
 .img_logo {
@@ -40,11 +40,12 @@ header {
 
 .button {
     display: inline-block;
-    width: 100px;
+    width: 120px;
     height: 25px;
     border-radius: 15px;
     background-color: #9E97A3;
     border-style: none;
+    padding-top: 2px;
 }
 
 .avi_img {
